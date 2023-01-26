@@ -1,0 +1,62 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.treasurehunter.lnf'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.treasurehunter.lnf"
+        minSdk 22
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        useLibrary 'org.apache.http.legacy'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //library fast networking
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+
+    //edit text
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    //library swiperrefresh
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+    //library picasso untuk menampilkan images
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //circular image view
+    implementation 'com.mikhaellopez:circularimageview:3.2.0'
+
+    //circle image view 2
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.2'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+}

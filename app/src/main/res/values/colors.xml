@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="red">#C80909</color>
+    <color name="blue">#71DAFF</color>
+    <color name="orange">#FFC546</color>
+    <color name="green">#34A853</color>
+    <color name="peach">#FF6464</color>
+    <color name="primary">#B983FF</color>
+    <color name="secondary">#94B3FD</color>
+    <color name="third">#94DAFF</color>
+    <color name="fourth">#99FEFF</color>
+    <color name="grey">#575757</color>
+    <color name="darkprimary">#200F21</color>
+    <color name="darksecond">#382039</color>
+    <color name="darkthird">#5A3D5C</color>
+    <color name="text_shadow">#d2d2d2</color>
+    <color name="light_font">#272727</color>
+    <color name="colorAccent">#62C5DA</color>
+    <color name="text_white">#ebf8f5</color>
+    <color name="DarkTextColor">#040404</color>
+    <color name="normalTextColor">#1f1f1f</color>
+    <color name="text_hint">#a3b0ba</color>
+    <color name="textlightcolor">#b0bac9</color>
+    <color name="progress_primary">@color/white</color>
+    <color name="progress_secondary">@color/gray_scale</color>
+    <color name="progress_max_active">@color/white</color>
+    <color name="grey_200">#969696</color>
+    <color name="gray_scale">#8affffff</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

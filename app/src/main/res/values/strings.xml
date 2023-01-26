@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LNF</string>
+    <string name="homeBTN1">Profile</string>
+    <string name="homeBTN2">Lost</string>
+    <string name="homeBTN3">Found</string>
+    <string name="homeBTN4">Chat</string>
+    <string name="username">Username Guweh</string>
+    <string name="nickAcc">PsyXZ</string>
+    <string name="first_slide_desc">Find your lost item</string>
+    <string name="skip_btn">Skip</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="page1">Report Lost Item</string>
+    <string name="page2">Report Found Item</string>
+    <string name="page3">Lost Stuff? Get It Back</string>
+    <string name="page4">Returning Others Stuff Is a Noble Act</string>
+    <string name="page5">Make Your Search Easy</string>
+    <string name="page6">Lets Help Each Others</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LNF" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkprimary</item>
+        <item name="colorPrimaryDark">@color/darksecond</item>
+        <item name="colorAccent">@color/darkthird</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
